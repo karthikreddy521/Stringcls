@@ -15,6 +15,7 @@ public class Stringcls {
 //System.out.println(str);
 //exist("hi");
 alpha();
+gitmsg();
 //split(".");
 twos("0000010101010000");
 //comple("001110110000");
@@ -126,6 +127,10 @@ twos("0000010101010000");
 	h=h.substring(0,n)+"1"+comple(h.substring(n+1));
 	System.out.print(h);
 	}
+	}
+	static void gitmsg()
+	{
+		System.out.println("Hi Git");
 	}
 
 
